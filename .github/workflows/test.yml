@@ -7,7 +7,7 @@ on:
   pull_request:
     branches: [ "main" ]
     paths:
-      - '**.js'
+      - '**.md'
 jobs:
   skipci:
     runs-on: ubuntu-22.04
