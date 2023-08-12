@@ -4,16 +4,10 @@ on:
     branches: [ "main" ]
     paths:
       - '**.js'
-    paths-ignore:
-      - 'sub-project/**'
-      - '!sub-project/docs/**'
   pull_request:
     branches: [ "main" ]
     paths:
       - '**.js'
-    paths-ignore:
-      - 'sub-project/**'
-      - '!sub-project/docs/**'
 jobs:
   skipci:
     runs-on: ubuntu-22.04
